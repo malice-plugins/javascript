@@ -1,0 +1,17 @@
+# Ignore .git folder
+.git*
+
+LICENSE
+Makefile
+README.md
+README.md.bu
+SAMPLE.md
+VERSION
+build
+circle.yml
+debug
+docker-entrypoint.sh
+logo.png
+CHANGELOG.md
+.vscode
+docs*
