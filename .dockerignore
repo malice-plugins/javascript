@@ -1,17 +1,14 @@
 # Ignore .git folder
 .git*
+.gitignore
 
-LICENSE
-Makefile
+docs*
+.circleci*
+.vscode*
+
 README.md
 README.md.bu
-SAMPLE.md
-VERSION
-build
-circle.yml
-debug
-docker-entrypoint.sh
-logo.png
+NOTES.md
+LICENSE
+Makefile
 CHANGELOG.md
-.vscode
-docs*

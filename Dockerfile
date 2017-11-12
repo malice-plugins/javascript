@@ -2,6 +2,11 @@ FROM malice/alpine
 
 LABEL maintainer "https://github.com/blacktop"
 
+LABEL malice.plugin.repository = "https://github.com/malice-plugins/javascript.git"
+LABEL malice.plugin.category="javascript"
+LABEL malice.plugin.mime="application/javascript"
+LABEL malice.plugin.docker.engine="*"
+
 COPY . /go/src/github.com/maliceio/malice-javascript
 RUN apk --update add --no-cache python py-setuptools
 RUN apk --update add --no-cache -t .build-deps \

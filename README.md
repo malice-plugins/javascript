@@ -1,11 +1,13 @@
 malice-javascript (WIP)
 =======================
 
-[![Circle CI](https://circleci.com/gh/maliceio/malice-javascript.png?style=shield)](https://circleci.com/gh/maliceio/malice-javascript) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Docker Stars](https://img.shields.io/docker/stars/malice/javascript.svg)](https://hub.docker.com/r/malice/javascript/) [![Docker Pulls](https://img.shields.io/docker/pulls/malice/javascript.svg)](https://hub.docker.com/r/malice/javascript/) [![Docker Image](https://img.shields.io/badge/docker%20image-114%20MB-blue.svg)](https://hub.docker.com/r/malice/javascript/)
+[![Circle CI](https://circleci.com/gh/malice-plugins/javascript.png?style=shield)](https://circleci.com/gh/malice-plugins/javascript) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![Docker Stars](https://img.shields.io/docker/stars/malice/javascript.svg)](https://hub.docker.com/r/malice/javascript/) [![Docker Pulls](https://img.shields.io/docker/pulls/malice/javascript.svg)](https://hub.docker.com/r/malice/javascript/) [![Docker Image](https://img.shields.io/badge/docker%20image-114%20MB-blue.svg)](https://hub.docker.com/r/malice/javascript/)
 
 Malice Javascript Plugins
 
-This repository contains a **Dockerfile** of the **javascript** malice plugin **malice/javascript**.
+> This repository contains a **Dockerfile** of the **javascript** malice plugin **malice/javascript**.
+
+___
 
 ### Dependencies
 
@@ -76,24 +78,28 @@ Sample Output
 Documentation
 -------------
 
--	[To write results to ElasticSearch](https://github.com/maliceio/malice-javascript/blob/master/docs/elasticsearch.md)
--	[To create a javascript scan micro-service](https://github.com/maliceio/malice-javascript/blob/master/docs/web.md)
--	[To post results to a webhook](https://github.com/maliceio/malice-javascript/blob/master/docs/callback.md)
+-	[To write results to ElasticSearch](https://github.com/malice-plugins/javascript/blob/master/docs/elasticsearch.md)
+-	[To create a javascript scan micro-service](https://github.com/malice-plugins/javascript/blob/master/docs/web.md)
+-	[To post results to a webhook](https://github.com/malice-plugins/javascript/blob/master/docs/callback.md)
 
 ### Issues
 
-Find a bug? Want more features? Find something missing in the documentation? Let me know! Please don't hesitate to [file an issue](https://github.com/maliceio/malice-javascript/issues/new)
+Find a bug? Want more features? Find something missing in the documentation? Let me know! Please don't hesitate to [file an issue](https://github.com/malice-plugins/javascript/issues/new)
 
 ### CHANGELOG
 
-See [`CHANGELOG.md`](https://github.com/maliceio/malice-javascript/blob/master/CHANGELOG.md)
+See [`CHANGELOG.md`](https://github.com/malice-plugins/javascript/blob/master/CHANGELOG.md)
 
 ### Contributing
 
-[See all contributors on GitHub](https://github.com/maliceio/malice-javascript/graphs/contributors).
+[See all contributors on GitHub](https://github.com/malice-plugins/javascript/graphs/contributors).
 
-Please update the [CHANGELOG.md](https://github.com/maliceio/malice-javascript/blob/master/CHANGELOG.md) and submit a [Pull Request on GitHub](https://help.github.com/articles/using-pull-requests/).
+Please update the [CHANGELOG.md](https://github.com/malice-plugins/javascript/blob/master/CHANGELOG.md) and submit a [Pull Request on GitHub](https://help.github.com/articles/using-pull-requests/).
+
+### TODO
+
+- [ ] add other's LICENSEs
 
 ### License
 
-MIT Copyright (c) 2016-2017 **blacktop**
+MIT Copyright (c) 2015-2017 **blacktop**
